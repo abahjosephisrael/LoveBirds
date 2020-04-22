@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>LoveBirds</title>
+	<link rel=" shortcut icon" href="css/img/heart2.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+</head>
+<body>
+	<nav>
+		<div>
+			<a href="Index.html">
+				<img src="css/img/heart2.png" alt="">
+				<h2 class="logo">LoveBirds</h2>
+			</a>
+		</div>
+		<br>
+		
+		<span onclick="openToggle()" id="open">Menu</span>
+		<span onclick="closeToggle()" id="close">Close</span>
+		
+	</nav>
+	<div id="links">
+		<ul>
+			<li><a href="" onclick="Home()">Home</a></li>
+			<li><a href="#" onclick="About()">About</a></li>
+			<li><a href="#" onclick="showLogin()">Login</a></li>
+			<li><a href="#" onclick="Contact()">Contact</a></li>
+		</ul>
+	</div>
+	<br>
+	<div class="slides" id="slides">
+		<img class="mySlides" src="css/img/67.jpg" alt="">
+		<img class="mySlides" src="css/img/68.jpg" alt="">
+		<img class="mySlides" src="css/img/69.jpg" alt="">
+		<img class="mySlides" src="css/img/70.jpg" alt="">
+		<img class="mySlides" src="css/img/71.jpg" alt="">
+		<div class="land">
+			<h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. !</h2>
+			<br>
+			<a href="#">Get Started</a>
+		</div>
+	</div>
+	<div class="container_login" id="container_login">
+		<center>
+			<h4>User Login </h4>
+			<img src="css/img/icon.png" alt="user icon">
+		</center>
+		<br>
+		<form onsubmit="validateUser()" netlify>
+			<center>
+				<input type="email" placeholder="Email"id="email" required> <br><br><br>
+				<input type="password" id="pass"name="password" placeholder="Password"required><br>
+				<p id="message"></p>
+					<br>			
+					<label class="switch">
+		  				<input type="checkbox" name="remember">
+		  				<div class="slider round"></div>
+					</label>
+					<label class="Keep">
+						Keep me logged in.
+					</label><br><br>
+				<input type="button" onclick="validateUser()" name="submit" value="   Log in   "><br>
+				<small>Forgot password? &nbsp;<a href="#">Reset</a></small><br>
+				<small>New here? &nbsp;<a href="#" onclick="Register()">Create account</a></small>
+			</center>		
+		</form>
+
+		
+	</div>
+	<div class="container_reg" id="container_reg">
+		<center>
+			
+			<h4>Registration form </h4>
+		</center>
+		
+		<form action="#" netlify>
+			<center>
+				<input type="text" placeholder="First name" required> <br><br>
+				<input type="text" placeholder="Last name" required> <br><br>
+				<input type="text" placeholder="Email" required> <br><br>
+				<input type="text" placeholder="Address" required> <br><br>
+				<input type="text" placeholder="Password" required> <br><br>
+				<input type="text" placeholder="Confirm password" required> <br><br>				
+				<input type="submit" name="submit" value="Submit"> &nbsp;
+				<input type="reset" value="Clear">				
+			</center>		
+		</form>
+		<center>
+			<small>&nbsp;Already have account? &nbsp; <br><a href="#" onclick="showLogin()">Log in</a></small>
+			
+		</center>
+	</div>
+	<div class="container_contact" id="container_contact">
+		<center>
+			
+			<h4>Contact Us </h4>
+		</center>
+		
+		<form action="#" netlify>
+			<center>
+				<input type="text" placeholder="Full name" required> <br><br>				
+				<input type="text" placeholder="Email" required> <br><br>
+				<input type="text" placeholder="Subject" required> <br><br>
+				<textarea placeholder="Message" required></textarea><br><br>
+				<input type="submit" name="submit" value="Submit"> &nbsp;
+				<input type="reset" value="Clear">				
+			</center>		
+		</form>
+		<center>
+			<small>&nbsp; &nbsp; <br><a href="#" onclick="Home()">Home</a></small>
+			
+		</center>
+	</div>
+
+	<div class="container_about" id="container_about">
+		<div class="about">
+			<center>		
+				<h2>About Us </h2>
+			</center>
+			<blockquote class="detail">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic cumque ipsa recusandae aperiam amet rerum totam debitis nam, fuga unde veniam voluptas voluptates, quae possimus rem atque consectetur molestias necessitatibus.
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam assumenda consequatur culpa corrupti aliquam quasi repellat quibusdam. Voluptates tempora eius, fuga necessitatibus rem quasi nesciunt? Dolores fugiat corrupti rem, repellendus quia molestias quidem similique perferendis cumque culpa beatae, quod, voluptas non distinctio et blanditiis dignissimos vero sequi assumenda rerum aut.
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt in cum fugit repellendus autem est? Quia provident non, ipsa, sequi quas, est esse tenetur animi molestias alias distinctio aperiam ullam voluptatibus perferendis asperiores temporibus vitae officia! Quam modi veniam ad atque harum dolorem, provident voluptatum minus labore temporibus omnis, tempore quod quos quasi vel perferendis. Quos qui aliquam enim repellendus dignissimos laudantium corrupti, perferendis fugiat minus modi rem molestias esse accusantium officiis dicta minima excepturi voluptas ipsam, dolore eaque odit eveniet! Dolor excepturi dolorem exercitationem quaerat. Nulla suscipit quasi tempore. Voluptatum quasi minima deserunt natus nam sint modi non nisi nulla odio tempore expedita sed, officiis temporibus cupiditate placeat. Perspiciatis ipsa quod, consectetur obcaecati quae placeat, totam perferendis nostrum adipisci sapiente est animi vero veniam debitis tempore. Necessitatibus ratione, labore harum voluptatem laborum delectus aliquam accusantium odit itaque voluptatum officia adipisci minima earum sit pariatur deleniti repudiandae eligendi quam ad ipsum fuga velit porro expedita excepturi! Rerum minima molestiae nesciunt voluptates distinctio mollitia dolor ipsum ullam nostrum suscipit. Perspiciatis aliquam ipsam voluptatibus quibusdam, minima neque quidem ducimus earum. Nostrum, illum at laboriosam inventore architecto, odit amet eum voluptatibus fuga autem quidem sit doloremque, vel obcaecati eius reprehenderit repellendus voluptates aliquam.
+			</blockquote>
+		</div>
+		<br> 
+		<center>			
+				<h2>Our Team </h2>
+		</center><br><br>
+		<div class="team">
+
+			<br>
+			<div class="staff">
+				<center>
+					<img class="staff_img" src="css/img/me.jpg" alt=""><br>
+					<p><b>Abah Joseph Israel</b> <br><small>CEO/Founder</small></p>				
+				<blockquote class="details">					
+					<a href="#"><img src="css/img/linkedin.png" alt=""></a>
+					<a href="#"><img src="css/img/facebook.png" alt=""></a>
+					<a href="#"><img src="css/img/instagram.png" alt=""></a>
+					<a href="#"><img src="css/img/twitter.png" alt=""></a>
+				</blockquote>
+			</center>
+			</div>
+			
+			<div class="staff">
+				<center>
+					<img class="staff_img" src="css/img/Goody.jpg" alt=""><br>
+					<p><b>John Rachael</b> <br><small>Accountant General</small></p>									
+				<blockquote class="details">					
+					<a href="#"><img src="css/img/linkedin.png" alt=""></a>
+					<a href="#"><img src="css/img/facebook.png" alt=""></a>
+					<a href="#"><img src="css/img/instagram.png" alt=""></a>
+					<a href="#"><img src="css/img/twitter.png" alt=""></a>
+				</blockquote>
+			</center>
+			</div>
+
+			<div class="staff">
+				<center>
+					<img class="staff_img" src="css/img/rhamon.jpg" alt=""><br>
+					<p><b>Ayodele Jacobs</b> <br><small>HR Manager</small></p>				
+				<blockquote class="details">
+					
+					<a href="#"><img src="css/img/linkedin.png" alt=""></a>
+					<a href="#"><img src="css/img/facebook.png" alt=""></a>
+					<a href="#"><img src="css/img/instagram.png" alt=""></a>
+					<a href="#"><img src="css/img/twitter.png" alt=""></a>
+				</blockquote>
+				</center>
+			</div>
+
+			<div class="staff">
+				<center>
+					<img class="staff_img" src="css/img/Helen.jpg" alt=""><br>
+					<p><b>Ben Jane</b> <br><small>General Manager</small></p>				
+					<blockquote class="details">
+						<a href="#"><img src="css/img/linkedin.png" alt=""></a>
+						<a href="#"><img src="css/img/facebook.png" alt=""></a>
+						<a href="#"><img src="css/img/instagram.png" alt=""></a>
+						<a href="#"><img src="css/img/twitter.png" alt=""></a>
+					</blockquote>
+				</center>
+			</div>
+		</div>
+
+	</div>
+	
+
+	<footer>
+		<p>All rights reserved by <br> LoveBirds <br>&copy; 2020 </p>
+		<a href="#"><img src="css/img/linkedin.png" alt=""></a>
+		<a href="#"><img src="css/img/facebook.png" alt=""></a>
+		<a href="#"><img src="css/img/instagram.png" alt=""></a>
+		<a href="#"><img src="css/img/twitter.png" alt=""></a>
+	</footer>	
+	<script src="js/main.js"></script> 	
+</body>
+</html>
